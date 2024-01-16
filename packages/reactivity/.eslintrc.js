@@ -1,4 +1,4 @@
-export default {
+module.exports = {
     "env": {
         "browser": true,
         "es2021": true
@@ -22,6 +22,12 @@ export default {
         "sourceType": "module"
     },
     "rules": {
-        "@typescript-eslint/no-unused-vars":off
+        "@typescript-eslint/no-unused-vars":"off",
+        "@typescript-eslint/explicit-function-return-type":"off",
+        "@typescript-eslint/ban-types":"off",
+        "@typescript-eslint/strict-boolean-expressions":"off",
+        "@typescript-eslint/no-extraneous-class":"off",
+        "@typescript-eslint/no-useless-constructor":"off",
+        "@typescript-eslint/no-unsafe-argument":"off"
     }
 }
